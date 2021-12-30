@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+.background-design{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: right;
+    z-index: -1;
+}
+.elipse1{
+    position: relative;
+    height: 230px;
+    width: 300px;
+    background-color: rgba(248, 239, 225, 0.99);    
+    border-radius:80% 0% 0% 100%/50%;
+    filter: blur(85px);
+    top: 530px;
+    justify-self: right;
+    align-self:flex-end;
+
+    
+}
+nav{
+    width: 100%;
+}
+.logo-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 85%;
+    
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+
+}
+.nav-items a{
+    text-decoration: none;
+    margin-bottom: 2rem;
+    color: #696766;
+    font-size: 18px;
+    letter-spacing: 2px;
+} 
+#contactus{
+    color: #E9CFCF;
+    
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.slogan{
+    width: 70%;
+    align-self: center;
+}
+
+.slogan p{
+    padding: 20px;
+    text-align: center;
+    color: #adacac8f;
+    font-family: 'Neuton', serif;
+    font-size: 24px;
+    line-height: 2rem;
+}
+
+
+.main-man img {
+    position: relative;
+    top: -78px;
+    width: 100%;
+    height: 100%;
+
+}
+.notmobile{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile img{
+    margin-top: 40px;
+    width: 100%;
+}
+#bookbtn{
+    margin-top: 40px;
+    height: 55px;
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: #F8EFE1;
+    font-family: 'Neuton', serif;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 19px 24px 31px 14px rgba(0,0,0,0.82);
+    -webkit-box-shadow: 19px 24px 31px 14px rgba(0,0,0,0.82);
+    -moz-box-shadow: 19px 24px 31px 14px rgba(0,0,0,0.82);
+}
+#design{
+    width: 100%;
+    overflow-x:hidden;
+}
+#yellow{
+    background-color: #F9B21C;
+    top: 1150px;
+    
+}
+
+.service-header>h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Neuton', serif;
+    margin: 50px auto;
+    display: block;
+    width: 80%;
+    color: #f8efe19b;
+    text-shadow: rgba(0, 0, 0, 0.233) 10px 12px;
+    -webkit-text-shadow: 10px 12px rgba(0,0,0,0.233);
+    -moz-text-shadow: 10px 12px rgba(0,0,0,0.233);
+    
+}
+.services{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Neuton', serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 22px;
+}
+.screen4{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Neuton', serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 22px;
+}
+.services div,.screen4 div{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.services div img,.screen4 div img{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.services div h3,.screen4 div h3{
+    color: #f8efe19b;
+    position: relative;
+    top: -40%;
+    justify-self: center;
+    align-self: center;
+    z-index: +1;
+}
+#haircut{
+    margin-bottom: -20px;
+}
+#purple{
+    top:3300px;
+    background-color: rgba(208, 76, 102, 0.45);
+}
+.screen3{
+    display: flex;
+    flex-direction: column;
+}
+.screen3>div>img{
+    width: 100%;
+}
+.second-man{
+    width: 20%;
+    height: 20%;
+}
+#slogan2{
+    margin-top: 30px;
+    color: #f8efe19b;
+    width: 100%;
+}
+#slogan2 p{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 40px;
+}
+#slogan2 input{
+    display: block;
+    margin: 40px auto;;
+}
+#knowourstaff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+#knowourstaff>h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Neuton', serif;
+    color: #f8efe19b;
+    text-shadow: rgba(0, 0, 0, 0.233) 10px 12px;
+    -webkit-text-shadow: 10px 12px rgba(0,0,0,0.233);
+    -moz-text-shadow: 10px 12px rgba(0,0,0,0.233);
+    
+}
+hr{
+    margin-top: 50px;
+    font-weight: 800;
+
+}
+#blue{
+    background-color: #5967E3;
+    top: 4500px;
+}
+.contactus{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.contactus img{
+    margin-top: 20px;
+    width: 40px;
+}
+.bookbtn2{
+    display: block;
+    width: 80%;
+    margin: 43 auto;
+}
