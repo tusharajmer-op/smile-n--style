@@ -99,6 +99,9 @@ main{
     margin-top: 40px;
     width: 100%;
 }
+.notmobile div[id="yellow"]{
+    display: none;
+}
 .mobile{
     display: flex;
     flex-direction: column;
