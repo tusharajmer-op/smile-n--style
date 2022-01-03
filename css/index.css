@@ -337,11 +337,11 @@ hr{
        margin-top: -10%;
     }
    .elipse1{
-       width: 300px;
-       height: 300px;
+       width: 20vw;
+       height: 40vh;
        margin-top: -10%;
        border-radius:80% 0% 0% 100%/70%;
-       filter: blur(100px);
+       filter: blur(200px);
    }
    #yellow{
     border-radius: 0 100% 100% 0 / 50%; 
